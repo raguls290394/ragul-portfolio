@@ -47,73 +47,50 @@
   </style>
 </head>
 <body>
-  <header>
-    <h1>Ragul Selvaraju</h1>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#experience">Experience</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
+  <header style="backdrop-filter:blur(12px);background:rgba(15,23,42,0.75);border-bottom:1px solid rgba(34,211,238,0.2);position:sticky;top:0;z-index:20;">
+    <div class="container" style="display:flex;justify-content:space-between;align-items:center;">
+      <h1 style="color:#22d3ee;">Ragul Selvaraju</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
 
   <div class="container">
+    <section style="display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;">
+      <div>
+        <h2 style="font-size:3rem;">Engineering <span style="color:#22d3ee;">Safer Mobility</span><br>Through Simulation</h2>
+        <p class="muted">Senior Safety Performance Engineer specializing in crashworthiness, occupant biomechanics, restraint systems, and CAE-driven safety development.</p>
+      </div>
+      <div style="text-align:center;">
+        <img src="profile.jpg" style="width:280px;height:280px;object-fit:cover;border-radius:24px;border:4px solid rgba(34,211,238,0.3);box-shadow:0 0 30px rgba(34,211,238,0.2);" />
+      </div>
+    </section>
+
     <section>
-      <h2>Senior Safety Performance Engineer</h2>
-      <p class="muted">Vehicle Crash & Occupant Safety | Biomechanics | Regulatory & NCAP Compliance</p>
-      <p>8+ years of combined industrial and research experience in vehicle crash safety, occupant protection, restraint systems, and CAE-driven safety performance development across global OEM programs.</p>
-    </section>
-
-    <section id="about">
-      <h3>About Me</h3>
-      <p>Experienced crash and safety engineer specializing in occupant safety performance ownership, restraint system tuning, simulation-test correlation, injury biomechanics, and regulatory compliance for FMVSS, UNECE, Euro NCAP, IIHS, and Bharat NCAP programs.</p>
-    </section>
-
-    <section id="experience">
-      <h3>Experience</h3>
-      <div class="card">
-        <h4>Senior CAE Engineer – Crash, Occupant & Restraints</h4>
-        <p class="muted">Alten India / Stellantis • 2023 – Present</p>
-        <ul>
-          <li>Owned occupant safety performance for multiple vehicle programs.</li>
-          <li>Led restraint tuning across FWDB, FWRB, MPDB, MDB, and ODB load cases.</li>
-          <li>Performed crash reconstruction-driven occupant safety analyses using LS-DYNA and MADYMO.</li>
-        </ul>
-      </div>
-      <div class="card">
-        <h4>Scientific Research Associate – Crash Safety & Biomechanics</h4>
-        <p class="muted">SASTRA Research Academy • 2017 – 2023</p>
-        <ul>
-          <li>Led crash reconstruction studies and posture-based injury analysis.</li>
-          <li>Developed injury-prediction frameworks and validated FE crash models.</li>
-          <li>Published 5 SAE technical papers in crash biomechanics.</li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="skills">
-      <h3>Core Skills</h3>
-      <div class="skills-grid">
-        <div class="card">LS-DYNA / MADYMO</div>
-        <div class="card">HyperMesh / ANSA</div>
-        <div class="card">Occupant Kinematics & Injury Metrics</div>
-        <div class="card">Airbag / Seatbelt / Restraint Tuning</div>
-        <div class="card">FMVSS / UNECE / Euro NCAP / IIHS</div>
-        <div class="card">MATLAB / Python Automation</div>
-      </div>
+      <h3 style="color:#22d3ee;">Self Introduction</h3>
+      <video controls style="width:100%;border-radius:16px;margin-top:20px;">
+        <source src="intro.mp4" type="video/mp4">
+      </video>
     </section>
 
     <section id="projects">
-      <h3>Highlighted Projects</h3>
-      <div class="card">Passenger Airbag & IP Optimization – Reduced head-IP contact severity by ~12%</div>
-      <div class="card">Multi-Load-Case Occupant Safety Tuning – Achieved ~18% chest deflection reduction</div>
-      <div class="card">Child Dummy Modelling (Q6/Q10) – Improved restraint geometry and biomechanics</div>
-      <div class="card">Real-World Accident Reconstruction – Estimated impact velocity within ±8% accuracy</div>
+      <h3 style="color:#22d3ee;">Featured Engineering Projects</h3>
+      <div class="skills-grid">
+        <div class="card"><img src="project1.jpg" style="width:100%;border-radius:12px;"><p>Crash Reconstruction & Injury Analysis</p></div>
+        <div class="card"><img src="project2.jpg" style="width:100%;border-radius:12px;"><p>Occupant Biomechanics Validation</p></div>
+        <div class="card"><img src="project3.jpg" style="width:100%;border-radius:12px;"><p>Restraint System Optimization</p></div>
+        <div class="card"><img src="project4.jpg" style="width:100%;border-radius:12px;"><p>Vehicle Safety Simulation</p></div>
+        <div class="card"><img src="project5.jpg" style="width:100%;border-radius:12px;"><p>Accident Reconstruction</p></div>
+        <div class="card"><img src="project6.jpg" style="width:100%;border-radius:12px;"><p>Posture Motion Capture Study</p></div>
+      </div>
     </section>
 
     <section id="contact">
-      <h3>Contact</h3>
+      <h3 style="color:#22d3ee;">Contact</h3>
       <p>ragulselvaraju@gmail.com</p>
     </section>
   </div>
